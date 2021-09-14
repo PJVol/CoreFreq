@@ -1836,7 +1836,7 @@ static void Map_AMD_Topology(void *arg)
 	case AMD_Zen2_MTS:
 	case AMD_Zen2_Xbox:
 	case AMD_Zen3_VMR:
-	case AMD_Zen3_CZN:
+	case AMD_Zen3:
 	case AMD_EPYC_Milan:
 	case AMD_Zen3_Chagall:
 	case AMD_Family_17h:
@@ -6288,7 +6288,7 @@ void Query_AMD_Family_17h(unsigned int cpu)
 	case AMD_Zen2_Xbox:
 	case AMD_Family_19h:
 	case AMD_Zen3_VMR:
-	case AMD_Zen3_CZN:
+//	case AMD_Zen3_CZN:
 	case AMD_EPYC_Milan:
 	case AMD_Zen3_Chagall:
 	    {
